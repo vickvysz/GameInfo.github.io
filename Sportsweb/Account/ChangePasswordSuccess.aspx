@@ -1,0 +1,17 @@
+﻿<%@ Page Title="Change Password" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+    CodeFile="ChangePasswordSuccess.aspx.cs" Inherits="Account_ChangePasswordSuccess" %>
+
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <asp:Panel ID="Panel1" runat="server" BackColor="#BBBBBBB">
+    <div style="padding-left: 25px; padding-top: 15px; padding-bottom: 10px;">
+     <h2>
+        Change Password
+    </h2>
+    <p>
+        Your password has been changed successfully.
+    </p>
+    </div>
+    </asp:Panel>
+</asp:Content>
